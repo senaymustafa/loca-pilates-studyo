@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+/* 🎨 Yeni renk paleti – Pembe/Mor ana renk (#e696cb) */
+@theme {
+  --color-primary-50: #fef6fa;
+  --color-primary-100: #fce8f3;
+  --color-primary-200: #f9cfe5;
+  --color-primary-300: #f4aad3;
+  --color-primary-400: #ee7bbd;
+  --color-primary-500: #e696cb;
+  /* ana renginiz */
+  --color-primary-600: #d465b2;
+  --color-primary-700: #bc4896;
+  --color-primary-800: #9a3a78;
+  --color-primary-900: #7f2f60;
+
+  /* Accent ve neutral renkler aynı kalabilir (uyumludur) */
+  --color-accent-50: #fdfbf7;
+  --color-accent-100: #f9f3e8;
+  --color-accent-200: #f2e5cc;
+  --color-accent-300: #e7d1a8;
+  --color-accent-400: #dcbd84;
+  --color-accent-500: #c9a65a;
+  --color-accent-600: #b39247;
+  --color-accent-700: #94783a;
+  --color-accent-800: #775f2f;
+  --color-accent-900: #5c4924;
+
+  --color-neutral-50: #fafaf9;
+  --color-neutral-100: #f5f4f0;
+  --color-neutral-200: #e7e5e0;
+  --color-neutral-300: #d4d1ca;
+  --color-neutral-400: #b0aca3;
+  --color-neutral-500: #8c8880;
+  --color-neutral-600: #6b6761;
+  --color-neutral-700: #55524d;
+  --color-neutral-800: #3b3936;
+  --color-neutral-900: #272624;
+
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+}
+
+body {
+  background-color: white;
+  color: var(--color-neutral-800);
+  font-family: var(--font-sans);
+}
