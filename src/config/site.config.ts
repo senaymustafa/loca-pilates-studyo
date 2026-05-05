@@ -95,7 +95,7 @@ export const siteConfig = {
           ],
           duration: "55 dakika",
           level: "Tüm seviyeler",
-          image: "/images/medikal.png",
+          image: "/images/medikal.jpeg",
           slug: "medikal",
         },
         {
@@ -110,7 +110,7 @@ export const siteConfig = {
           ],
           duration: "45 dakika",
           level: "Hamilelik öncesi onay gerekir",
-          image: "/images/prenatal.png",
+          image: "/images/prenatal.jpeg",
           slug: "prenatal",
         },
       ],
@@ -143,7 +143,10 @@ export const siteConfig = {
       instagramFeed: [
         { image: "/images/insta1.jpeg", link: "https://www.instagram.com/loca_pilates/" },
         { image: "/images/insta2.jpeg", link: "https://www.instagram.com/loca_pilates/" },
-        { image: "/images/insta3.png", link: "https://www.instagram.com/loca_pilates/" },
+        { image: "/images/insta3.jpeg", link: "https://www.instagram.com/loca_pilates/" },
+        { image: "/images/insta4.jpeg", link: "https://www.instagram.com/loca_pilates/" },
+        { image: "/images/insta5.jpeg", link: "https://www.instagram.com/loca_pilates/" },
+        { image: "/images/insta6.jpeg", link: "https://www.instagram.com/loca_pilates/" },
       ],
     },
     about: {
